@@ -9,7 +9,7 @@ export default defineConfig({
         manualChunks: undefined
       }
     },
-    base: './',  // This is supposed to make it work with relative paths
-    assetsDir: './assets', // Adding this to ensure assets are loaded from a relative directory
+    base: '/vue-dev-test/', // Update this line to match your GitHub Pages subpath
+    assetsDir: 'assets'  // No need for './' here, just the folder name
   }
 })
