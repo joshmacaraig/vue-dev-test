@@ -9,7 +9,7 @@ export default defineConfig({
         manualChunks: undefined
       }
     },
-    base: '/vue-dev-test/', // Update this line to match your GitHub Pages subpath
-    assetsDir: 'assets'  // No need for './' here, just the folder name
+    base: '/vue-dev-test/',
+    assetsDir: 'assets'
   }
 })
